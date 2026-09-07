@@ -114,6 +114,7 @@ which is a result that arrives later. `await` waits for the user's choice withou
 freezing the app. The date picker checks `mounted` before `setState` to confirm
 its screen still exists.
 
+
 **Layout:** `Row` lays out children horizontally and `Column` vertically.
 `Expanded` gives a child the available space. `ListView` provides scrolling,
 including on forms when the keyboard takes up room. `Wrap` lets filters and
